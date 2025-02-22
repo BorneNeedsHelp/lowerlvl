@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setup-tools", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'lowerlvl'
+version = '1.0.0'
+description = 'A package that can get low level data on you computer. Macs only.'
+authors = [{ name = "Borne Sanders", email = "b@matrixsystemsgroup.com" }]
+dependecies = ["Quartz"]
