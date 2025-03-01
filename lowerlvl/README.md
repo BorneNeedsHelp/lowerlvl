@@ -31,7 +31,7 @@ on `pyobjc_code.py` its the same thing but, its `listen_keyboard()`.
 
 `replicate_mouse()` replicates mouse data. You may need permission from
 `Settings > Privacy & Security > Accessibility`. `type` can be in range of 1 - 7 (1 is left mouse down, 2 right mouse down, 3 is left mouse up, 4
-is right mouse down, 5 is mouse moved, 6 is left mouse dragged, 7 is right mouse dragged).
+is right mouse up, 5 is mouse moved, 6 is left mouse dragged, 7 is right mouse dragged).
 `posx and posy` is mouse coordinates.
 
 `replicate_mouse()` on `pyobjc_code.py` is the exact same.
