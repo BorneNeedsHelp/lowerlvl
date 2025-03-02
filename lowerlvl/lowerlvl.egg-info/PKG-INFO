@@ -1,7 +1,0 @@
-Metadata-Version: 2.2
-Name: lowerlvl
-Version: 1.0.0
-Summary: A package that can get low level data on you computer. Macs only.
-Author-email: Borne Sanders <b@matrixsystemsgroup.com>
-License-File: LICENSE
-Requires-Dist: pyobjc
