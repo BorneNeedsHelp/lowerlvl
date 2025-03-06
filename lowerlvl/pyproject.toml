@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lowerlvl"
+version = "1.5"
+description = "A package that retrieves low-level system data on macOS."
+authors = [{ name = "Borne Sanders", email = "b@matrixsystemsgroup.com" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["macOS", "system", "hardware", "Apple"]
+requires-python = ">=3.12"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS"
+]
+dependencies = ["pyobjc"]
+
+[project.urls]
+Homepage = "https://github.com/BorneNeedsHelp/lowerlvl"
+Repository = "https://github.com/BorneNeedsHelp/lowerlvl"
+Issues = "https://github.com/BorneNeedsHelp/lowerlvl/issues"
